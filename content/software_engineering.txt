@@ -7,6 +7,10 @@ A software engineer might design web services.
 
 A software engineer uses various tools.
 A software engineer uses version control systems.
+A software engineer uses text editors.
 
 A software engineer uses version control systems.
 A software engineer might use Git.
+
+A software engineer uses text editors.
+A software engineer might use Vim.
