@@ -1,0 +1,11 @@
+env:
+  global:
+    secure: iwY4zrlodQW5GOEwf95CwedjkWg5ZuhQiNeixskdmDbUIC3ad3WMQC9j4zAjgTOiE06ivJHKNLfPN5k2xNtkZxb3BitexsU/1KClMZLoVYcJnHR1qq7RrJfH1ZG1sLtv6Izzx9bMw43cW6SNHbfX8A/ee/JXecXvJn1D+mfZBSu9y2OVCpwp12LiVpdzgOr4GbwDZnh3fE5KxK+z3skNcRYjAYhg7l2xj8eXEuispPEx3V6n85CjqOVB7O5Stk9+yMZKIvMgJHz1jyqJMDaIp15BtRekjLqMPSpLG4qWDlKhHMDDD8t5Gzh2jAOua0HRoggSodm0WQVuqti7ZfmmUUYxAHqn3mi46eeZEQfmDjqLH3yqK4Ks6Oq9cxkSoHY2+QCJQXr4yV1D9FEEs+uDuHiQsbHiEBO4q2btKYW1b0J9cqK/WIm9x7rJLVGkUxJQ5I7TC03yJSngGNdIo1gNFmZAWZjohEwZqjo6XgTZ8mT7hJEpKrqPXOauQbRx6OC9FJCvJKCO+V8vljz7ur3Lq6k59TuUgJzCkIhaJeV9yhlbxjOxeKII1MYuWx/F5AbiRN31lyIJAHn8SA8DPeQGdzV1fYxtrIbHuzAmcpMMimXpqfFqpGad2qSJk6ArtLDe7MO/HeMcjBdXkBHogrVO+qb72kU4VVtzMNmhgNAJWpU=
+install:
+- git clone https://github.com/grnhse/moss.git
+- cd moss
+- make
+- cd ..
+script:
+- /bin/bash -x ./moss/script/moss build moss/assets
+- /bin/bash -x deploy.sh
