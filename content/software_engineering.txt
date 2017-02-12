@@ -1,3 +1,9 @@
 A software engineer does various things.
 A software engineer engineers various kinds of system.
 A software engineer uses various tools.
+
+A software engineer uses various tools.
+A software engineer uses version control systems.
+
+A software engineer uses version control systems.
+A software engineer might use Git.
