@@ -11,10 +11,14 @@
 }
 
 #_moss p {
-  padding-bottom: 20px;
-  font-size: 32px;
-  width: 550px;
+  padding-bottom: 24px;
+  font-size: 30px;
+  width: 700px;
   margin: auto;
+
+  line-height: 1.3;
+  letter-spacing: -.003em;
+  font-weight: 400;
 }
 
 #_moss a {
@@ -46,8 +50,11 @@
   color: #4078c0;
 }
 
-#_moss .moss-selected-link {
+#_moss .moss-open-link {
   text-decoration: underline;
+}
+
+#_moss .moss-selected-link {
   text-shadow: .6px 0px 0px black;
 }
 
